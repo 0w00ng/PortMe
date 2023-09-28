@@ -1,38 +1,1178 @@
-.App {
+.page {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 0px 0px;
+  position: relative;
+}
+
+.page .top-bar {
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 6px #0000001f;
+  display: flex;
+  gap: 20px;
+  height: 80px;
+  justify-content: center;
+  left: 0;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.page .rectangle {
+  background-color: #0000001a;
+  border-radius: 100px;
+  height: 40px;
+  position: relative;
+  width: 40px;
+}
+
+.page .title {
+  color: #000000;
+  flex: 1;
+  font-family: "Roboto-Medium", Helvetica;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: relative;
+}
+
+.page .section {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 60px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 60px 170px;
+  position: relative;
+  width: 100%;
+}
+
+.page .container {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 24px;
+  position: relative;
+}
+
+.page .text-wrapper {
+  color: #000000;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 48px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 520px;
+}
+
+.page .description {
+  color: #000000;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  text-align: center;
+  width: 520px;
+}
+
+.page .vector {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 216px;
+  width: 1440px;
+}
+
+.page .img {
+  align-self: stretch;
+  flex: 0 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.page .list {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  padding: 20px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.page .row {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 40px;
+  position: relative;
+  width: 100%;
+}
+
+.page .article {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: #0000001a;
+  border-radius: 6px;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 16px;
+  justify-content: center;
+  padding: 16px;
+  position: relative;
+}
+
+.page .image-container {
+  align-items: flex-start;
+  display: flex;
+  height: 100px;
+  position: relative;
+  width: 100px;
+}
+
+.page .image {
+  align-self: stretch;
+  background-color: #d8d8d880;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+}
+
+.page .frame {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 8px;
+  position: relative;
+}
+
+.page .div {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Roboto-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.page .subtitle {
+  align-self: stretch;
+  color: #00000080;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: relative;
+}
+
+.page .p {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+}
+
+.page .article-2 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: #0000001a;
+  border-radius: 6px;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 16px;
+  height: 144px;
+  justify-content: center;
+  padding: 16px;
+  position: relative;
+}
+
+.page .selection {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 6px;
+  padding: 4px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.page .label-normal {
+  align-items: center;
+  background-color: #d8d8d880;
+  border: 0.5px solid;
+  border-color: #0000001a;
+  border-radius: 2px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 2px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 2px 4px;
+  position: relative;
+}
+
+.page .label-text {
+  color: #000000;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-top: -0.5px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.page .user {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  padding: 4px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.page .avatar {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 8px;
+  position: relative;
+}
+
+.page .avatar-2 {
+  background-color: #0000001a;
+  border-radius: 20px;
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.page .title-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+}
+
+.page .title-2 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  align-self: stretch;
+  color: #000000;
+  display: -webkit-box;
+  font-family: "Roboto-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  height: 20px;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.page .vector-2 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 615px;
+  width: 1440px;
+}
+
+.page .div-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 24px;
+  position: relative;
+}
+
+.page .title-3 {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 48px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.page .list-2 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 40px;
+  justify-content: center;
+  position: relative;
+}
+
+.page .card {
+  align-items: center;
+  background-color: #0000000d;
+  border-radius: 6px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 16px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 16px;
+  position: relative;
+}
+
+.page .avatar-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+  width: 100%;
+}
+
+.page .avatar-3 {
+  background-color: #0000001a;
+  border-radius: 32px;
+  height: 32px;
+  position: relative;
+  width: 32px;
+}
+
+.page .title-4 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  align-self: stretch;
+  color: #000000;
+  display: -webkit-box;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 72px;
+  letter-spacing: 0;
+  line-height: 24px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+}
+
+.page .vector-3 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 272px;
+  width: 1440px;
+}
+
+.page .list-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 40px;
+  justify-content: center;
+  padding: 20px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.page .item {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 20px;
+  justify-content: center;
+  padding: 12px 0px;
+  position: relative;
+}
+
+.page .icon-wrapper {
+  background-color: #0000000d;
+  border-radius: 50px;
+  height: 100px;
+  position: relative;
+  width: 100px;
+}
+
+.page .icon {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  color: #000000;
+  display: -webkit-box;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 62.5px;
+  font-weight: 400;
+  height: 100px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 100px;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  text-overflow: ellipsis;
+  top: -1px;
+  white-space: nowrap;
+  width: 100px;
+}
+
+.page .frame-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.page .title-5 {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.page .subtitle-2 {
+  align-self: stretch;
+  color: #00000080;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: relative;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.page .subtitle-3 {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Roboto-Medium", Helvetica;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: relative;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.page .vector-4 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 496px;
+  width: 1440px;
+}
+
+.page .section-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 40px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 60px 170px;
+  position: relative;
+  width: 100%;
+}
+
+.page .avatar-4 {
+  background-color: #d8d8d880;
+  border-radius: 50px;
+  height: 100px;
+  position: relative;
+  width: 100px;
+}
+
+.page .container-2 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 12px;
+  position: relative;
+}
+
+.page .title-6 {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Roboto-Bold", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.page .selection-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 6px;
+  position: relative;
+  width: 100%;
+}
+
+.page .vector-5 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 220px;
+  width: 1440px;
+}
+
+.page .post {
+  align-items: center;
+  border: 1px solid;
+  border-color: #0000001a;
+  border-radius: 6px;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  width: 340px;
+}
+
+.page .image-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  height: 300px;
+  position: relative;
+  width: 100%;
+}
+
+.page .title-7 {
+  color: #000000;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 16px;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 141px;
+  white-space: nowrap;
+  width: 308px;
+}
+
+.page .pagination {
   align-items: center;
+  display: inline-flex;
+  gap: 4px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  left: 148px;
+  position: absolute;
+  top: 288px;
 }
 
-.App-link {
-  color: #61dafb;
+.page .rectangle-2 {
+  background-color: #ffffff;
+  border-radius: 100px;
+  height: 4px;
+  position: relative;
+  width: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.page .rectangle-3 {
+  background-color: #0000004c;
+  border-radius: 100px;
+  height: 4px;
+  position: relative;
+  width: 4px;
+}
+
+.page .text-content {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.page .title-8 {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.page .avatar-5 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.page .vector-6 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 524px;
+  width: 1440px;
+}
+
+.page .input {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  position: relative;
+  width: 600px;
+}
+
+.page .title-9 {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Roboto-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.page .textfield {
+  align-items: center;
+  align-self: stretch;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #0000001a;
+  border-radius: 6px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  padding: 8px 12px;
+  position: relative;
+  width: 100%;
+}
+
+.page .text {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  color: #00000080;
+  display: -webkit-box;
+  flex: 1;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 20px;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.page .info {
+  align-self: stretch;
+  color: #00000080;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: relative;
+}
+
+.page .button {
+  all: unset;
+  align-items: flex-start;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+}
+
+.page .primary {
+  align-items: center;
+  background-color: #000000;
+  border-radius: 8px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px;
+  position: relative;
+  width: 160px;
+}
+
+.page .title-10 {
+  color: #ffffff;
+  font-family: "Roboto-Medium", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.page .vector-7 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 580px;
+  width: 1440px;
+}
+
+.page .list-4 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 20px;
+  padding: 20px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.page .metric {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: #0000001a;
+  border-radius: 6px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 4px;
+  overflow: hidden;
+  padding: 16px;
+  position: relative;
+}
+
+.page .title-11 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  align-self: stretch;
+  color: #00000080;
+  display: -webkit-box;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 24px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.page .data {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  color: #000000;
+  display: -webkit-box;
+  font-family: "Roboto-Medium", Helvetica;
+  font-size: 28px;
+  font-weight: 500;
+  height: 36px;
+  letter-spacing: 0;
+  line-height: 36px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 70px;
+}
+
+.page .change {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  color: #000000;
+  display: -webkit-box;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 24px;
+  letter-spacing: 0;
+  line-height: 24px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 39px;
+}
+
+.page .container-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  width: 100%;
+}
+
+.page .container-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  border: 1px solid;
+  border-color: #0000001a;
+  border-radius: 6px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.page .graph {
+  align-self: stretch;
+  height: 300px;
+  position: relative;
+  width: 100%;
+}
+
+.page .vector-8 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1068px;
+}
+
+.page .overlap-group {
+  height: 246px;
+  left: 0;
+  position: absolute;
+  top: 54px;
+  width: 1068px;
+}
+
+.page .vector-9 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 20px;
+  width: 1068px;
+}
+
+.page .vector-10 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 95px;
+  width: 1068px;
+}
+
+.page .vector-11 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 170px;
+  width: 1068px;
+}
+
+.page .vector-12 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 245px;
+  width: 1068px;
+}
+
+.page .group {
+  height: 246px;
+  left: 19px;
+  position: absolute;
+  top: 0;
+  width: 1029px;
+}
+
+.page .rectangle-4 {
+  background-color: #00000080;
+  height: 246px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 95px;
+}
+
+.page .rectangle-5 {
+  background-color: #00000080;
+  height: 176px;
+  left: 156px;
+  position: absolute;
+  top: 69px;
+  width: 95px;
+}
+
+.page .rectangle-6 {
+  background-color: #00000080;
+  height: 120px;
+  left: 311px;
+  position: absolute;
+  top: 126px;
+  width: 95px;
+}
+
+.page .rectangle-7 {
+  background-color: #00000080;
+  height: 184px;
+  left: 467px;
+  position: absolute;
+  top: 62px;
+  width: 95px;
+}
+
+.page .rectangle-8 {
+  background-color: #00000080;
+  height: 142px;
+  left: 623px;
+  position: absolute;
+  top: 103px;
+  width: 95px;
+}
+
+.page .rectangle-9 {
+  background-color: #00000080;
+  height: 219px;
+  left: 779px;
+  position: absolute;
+  top: 26px;
+  width: 95px;
+}
+
+.page .rectangle-10 {
+  background-color: #00000080;
+  height: 163px;
+  left: 934px;
+  position: absolute;
+  top: 82px;
+  width: 95px;
+}
+
+.page .graph-2 {
+  align-self: stretch;
+  height: 301px;
+  margin-bottom: -0.5px;
+  position: relative;
+  width: 100%;
+}
+
+.page .vector-13 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 1195px;
+  width: 1440px;
+}
+
+.page .image-container-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  height: 300px;
+  padding: 4px 0px;
+  position: relative;
+}
+
+.page .image-2 {
+  align-self: stretch;
+  background-color: #d8d8d880;
+  border-radius: 6px;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+}
+
+.page .title-12 {
+  color: #000000;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  height: 16px;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 137px;
+  white-space: nowrap;
+  width: 1068px;
+}
+
+.page .pagination-2 {
+  align-items: center;
+  display: inline-flex;
+  gap: 4px;
+  justify-content: center;
+  left: 528px;
+  position: absolute;
+  top: 280px;
+}
+
+.page .vector-14 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 420px;
+  width: 1440px;
+}
+
+.page .section-3 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 60px;
+  justify-content: center;
+  padding: 60px;
+  position: relative;
+  width: 100%;
+}
+
+.page .container-4 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 60px;
+  height: 100px;
+  justify-content: center;
+  position: relative;
+}
+
+.page .title-13 {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 156px;
+}
+
+.page .title-14 {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 124px;
+}
+
+.page .title-15 {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 196px;
 }
