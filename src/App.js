@@ -144,7 +144,7 @@ const App = () => {
             </div>
             <div className="item">
               <div className="div-wrapper">
-                <div className="subtitle-5">🇰🇷</div>
+                <div className="icon">🇰🇷</div>
               </div>
               <div className="frame-2">
                 <div className="title-8">청해부대 30진</div>
@@ -158,7 +158,7 @@ const App = () => {
               </div>
               <div className="frame-2">
                 <div className="title-8">와이에스지</div>
-                <div className="subtitle-3">주임(비개발직)</div>
+                <div className="subtitle-3">대리(비개발직)</div>
               </div>
               <div className="subtitle-4">2018 - Present</div>
             </div>
