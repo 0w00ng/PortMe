@@ -1,12 +1,14 @@
 import React from "react";
 import Hero from "./img/Hero.jpg";
+import Location from "./img/location.png";
+import Icon from "./img/icon.ico"
 import "./App.css";
 
 const App = () => {
   return (
     <div className="page">
       <div className="top-bar">
-        <div className="rectangle" />
+        <img className="rectangle" alt="icon" src={Icon}/>
         <div className="title">PortMe</div>
         <div className="navbar">
           <div className="tab">Home</div>
@@ -14,12 +16,6 @@ const App = () => {
           <div className="tab">Projects</div>
           <div className="tab">Contact</div>
         </div>
-      </div>
-      <div className="section">
-        <div className="container">
-          <div className="text-wrapper">Port Me</div>
-        </div>
-        <img className="vector" alt="Vector" src="vector-200-4.svg" />
       </div>
       <div className="div">
         <img className="avatar" alt="Profile" src={Hero}/>
@@ -30,7 +26,7 @@ const App = () => {
               <div className="label-text">Front-End Developer</div>
             </div>
           </div>
-          <p className="text-wrapper-2">Passionate about coding and creating innovative solutions.</p>
+          <p className="text-wrapper-2">프론엔드 개발자 준비중인 25세 김영웅입니다.</p>
         </div>
         <img className="img" alt="Vector" src="vector-200-2.svg" />
       </div>
@@ -200,14 +196,7 @@ const App = () => {
         <img className="vector-5" alt="Vector" src="vector-200-3.svg" />
       </div>
       <div className="section">
-        <div className="map-container">
-          <div className="overlap-group-wrapper">
-            <div className="overlap-group">
-              <div className="title-11">인천시 부평구</div>
-              <img className="ic-location" alt="Ic location" src="ic-location.svg" />
-            </div>
-          </div>
-        </div>
+            <img className="overlap-group" alt="location" src={Location}/>
         <img className="vector-6" alt="Vector" src="vector-200-5.svg" />
       </div>
       <div className="container-wrapper">
