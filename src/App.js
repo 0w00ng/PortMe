@@ -1,4 +1,5 @@
 import React from "react";
+import Hero from "./img/Hero.jpg";
 import "./App.css";
 
 const App = () => {
@@ -21,7 +22,7 @@ const App = () => {
         <img className="vector" alt="Vector" src="vector-200-4.svg" />
       </div>
       <div className="div">
-        <div className="avatar" />
+        <img className="avatar" alt="Profile" src={Hero}/>
         <div className="container-2">
           <div className="title-2">김영웅</div>
           <div className="selection">
