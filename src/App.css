@@ -211,12 +211,12 @@
   align-self: stretch;
   display: flex;
   gap: 60px;
-  height: 678px;
+  height: 1100px;
   justify-content: center;
   overflow: hidden;
   padding: 60px 170px;
   position: relative;
-  width: 100%;
+  width: 90%;
 }
 
 .page .container-3 {
@@ -266,6 +266,7 @@
   flex-grow: 1;
   overflow: hidden;
   position: relative;
+  margin: 10px;
 }
 
 .page .image-container {
@@ -387,6 +388,7 @@
   justify-content: center;
   padding: 20px 0px;
   position: relative;
+  
 }
 
 .page .row {

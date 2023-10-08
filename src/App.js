@@ -3,6 +3,7 @@ import Hero from "./img/Hero.jpg";
 import Location from "./img/location.png";
 import Icon from "./img/icon.ico"
 import Chucar from "./img/chucar-logoN1.png"
+import Iphone from "./img/iphonex3365689640.png"
 import "./App.css";
 
 const App = () => {
@@ -36,30 +37,45 @@ const App = () => {
           <div className="text-wrapper">My Projects</div>
           <p className="description">Check out some of my work.</p>
           <div className="list">
-            <div className="card">
-              <div className="image-container">
-                <img className="image" alt="Portme" src={Icon}/>
-                  <div className="tag">
-                    <div className="text">Web Development</div>
-                  </div>
+            <div className="card-1">
+              <div className="card">
+                <div className="image-container">
+                  <img className="image" alt="Portme" src={Icon}/>
+                    <div className="tag">
+                      <div className="text">Web Development</div>
+                    </div>
+                </div>
+                <div className="text-content">
+                  <div className="title-4">Project 1</div>
+                  <div className="subtitle">PortMe (React)</div>
+                  <div className="description">개인 이력서</div>
+                </div>
               </div>
-              <div className="text-content">
-                <div className="title-4">Project 1</div>
-                <div className="subtitle">PortMe (React)</div>
-                <div className="description">개인 이력서</div>
+              <div className="card">
+                <div className="image-container">
+                <img className="image" alt="Chucar" src={Chucar}/>
+                    <div className="tag">
+                      <div className="text">App Development</div>
+                    </div>
+                </div>
+                <div className="text-content">
+                  <div className="title-4">Project 2</div>
+                  <div className="subtitle">츄카 (ReactNative)</div>
+                  <div className="description">중고차 견적플랫폼</div>
+                </div>
               </div>
             </div>
             <div className="card">
               <div className="image-container">
-              <img className="image" alt="Chucar" src={Chucar}/>
+              <img className="image" alt="Chucar" src={Iphone}/>
                   <div className="tag">
                     <div className="text">App Development</div>
                   </div>
               </div>
               <div className="text-content">
-                <div className="title-4">Project 2</div>
-                <div className="subtitle">츄카 (ReactNative)</div>
-                <div className="description">중고차 견적플랫폼</div>
+                <div className="title-4">Project 3</div>
+                <div className="subtitle">미정 (IOS)</div>
+                <div className="description">진행중..</div>
               </div>
             </div>
           </div>
@@ -78,22 +94,9 @@ const App = () => {
                 <div className="image" />
               </div>
               <div className="frame">
-                <div className="title-6">Front-End Development</div>
-                <div className="subtitle-2">Web &amp; App</div>
-                <p className="text-wrapper-2">HTML, CSS, JavaScript, React, React Native</p>
-                <div className="label-normal-wrapper">
-                  <div className="label-normal">
-                    <div className="label-text">Professional</div>
-                  </div>
-                </div>
-                <div className="user">
-                  <div className="avatar-2">
-                    <div className="avatar-3" />
-                    <div className="title-wrapper">
-                      <div className="title-7">John Doe</div>
-                    </div>
-                  </div>
-                </div>
+                <div className="title-6">Web Development</div>
+                <div className="subtitle-2">Front-End</div>
+                <p className="text-wrapper-2">HTML, CSS, JavaScript, React</p>
               </div>
             </div>
           </div>
@@ -103,21 +106,11 @@ const App = () => {
                 <div className="image" />
               </div>
               <div className="frame">
-                <div className="title-6">UI/UX Design</div>
-                <div className="text-wrapper-2">Sketch, Adobe XD, InVision</div>
-                <div className="label-normal-wrapper">
-                  <div className="label-normal">
-                    <div className="label-text">Professional</div>
-                  </div>
-                </div>
-                <div className="user">
-                  <div className="avatar-2">
-                    <div className="avatar-3" />
-                    <div className="title-wrapper">
-                      <div className="title-7">Jane Smith</div>
-                    </div>
-                  </div>
-                </div>
+                <div className="title-6">App Development</div>
+                <div className="subtitle-2">Cross</div>
+                <div className="text-wrapper-2">ReactNative</div>
+                <div className="subtitle-2">IOS</div>
+                <div className="text-wrapper-2">Swift</div>
               </div>
             </div>
           </div>
