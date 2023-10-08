@@ -195,7 +195,7 @@ const App = () => {
       </div>
       <div className="container-wrapper">
         <div className="container-5">
-          <div className="title-12">© 2023 HeroSoft</div>
+          <div className="title-12">gmrfy9906@naver.com (상시대기)</div>
         </div>
       </div>
     </div>
