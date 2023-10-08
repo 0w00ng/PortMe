@@ -155,6 +155,7 @@ const App = () => {
         </div>
         <img className="vector-4" alt="Vector" src="image.svg" />
       </div>
+      {/*
       <div className="section">
         <div className="container">
           <div className="text-wrapper">Contact Me</div>
@@ -187,6 +188,7 @@ const App = () => {
         </div>
         <img className="vector-5" alt="Vector" src="vector-200-3.svg" />
       </div>
+      */}
       <div className="section">
             <img className="overlap-group" alt="location" src={Location}/>
         <img className="vector-6" alt="Vector" src="vector-200-5.svg" />
