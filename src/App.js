@@ -155,47 +155,19 @@ const App = () => {
         </div>
         <img className="vector-4" alt="Vector" src="image.svg" />
       </div>
-      {/*
       <div className="section">
         <div className="container">
-          <div className="text-wrapper">Contact Me</div>
-          <div className="input">
-            <div className="title-9">Name</div>
-            <div className="textfield">
-              <div className="text-2">Enter your name</div>
-            </div>
-            <div className="info">Required</div>
-          </div>
-          <div className="input">
-            <div className="title-9">Email</div>
-            <div className="textfield">
-              <div className="text-2">Enter your email</div>
-            </div>
-            <div className="info">Required</div>
-          </div>
-          <div className="input">
-            <div className="title-9">Message</div>
-            <div className="textfield">
-              <div className="text-2">Enter your message</div>
-            </div>
-            <div className="info">Required</div>
-          </div>
-          <button className="button">
-            <div className="primary">
-              <div className="title-10">Send Message</div>
-            </div>
-          </button>
+          <div className="title-12">Email : gmrfy9906@naver.com</div>
+          <div className="title-12">blog : herokim.tistory.com</div>
         </div>
-        <img className="vector-5" alt="Vector" src="vector-200-3.svg" />
       </div>
-      */}
       <div className="section">
             <img className="overlap-group" alt="location" src={Location}/>
         <img className="vector-6" alt="Vector" src="vector-200-5.svg" />
       </div>
       <div className="container-wrapper">
         <div className="container-5">
-          <div className="title-12">gmrfy9906@naver.com (상시대기)</div>
+          <div className="title-12">Hero Kim</div>
         </div>
       </div>
     </div>
