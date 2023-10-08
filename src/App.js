@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "./img/Hero.jpg";
 import Location from "./img/location.png";
 import Icon from "./img/icon.ico"
+import Chucar from "./img/chucar-logoN1.png"
 import "./App.css";
 
 const App = () => {
@@ -23,10 +24,10 @@ const App = () => {
           <div className="title-2">김영웅</div>
           <div className="selection">
             <div className="label-normal">
-              <div className="label-text">Front-End Developer</div>
+              <div className="label-text">IOS Developer</div>
             </div>
           </div>
-          <p className="text-wrapper-2">프론엔드 개발자 준비중인 25세 김영웅입니다.</p>
+          <p className="text-wrapper-2">IOS 개발자 준비중인 25세 김영웅입니다.</p>
         </div>
         <img className="img" alt="Vector" src="vector-200-2.svg" />
       </div>
@@ -37,30 +38,28 @@ const App = () => {
           <div className="list">
             <div className="card">
               <div className="image-container">
-                <div className="image">
-                  <div className="title-3">Project image</div>
+                <img className="image" alt="Portme" src={Icon}/>
                   <div className="tag">
                     <div className="text">Web Development</div>
                   </div>
-                </div>
               </div>
               <div className="text-content">
                 <div className="title-4">Project 1</div>
-                <div className="subtitle">PortMe</div>
+                <div className="subtitle">PortMe (React)</div>
+                <div className="description">개인 이력서</div>
               </div>
             </div>
             <div className="card">
               <div className="image-container">
-                <div className="image">
-                  <div className="title-3">Project image</div>
+              <img className="image" alt="Chucar" src={Chucar}/>
                   <div className="tag">
                     <div className="text">App Development</div>
                   </div>
-                </div>
               </div>
               <div className="text-content">
                 <div className="title-4">Project 2</div>
-                <div className="subtitle">츄카</div>
+                <div className="subtitle">츄카 (ReactNative)</div>
+                <div className="description">중고차 견적플랫폼</div>
               </div>
             </div>
           </div>

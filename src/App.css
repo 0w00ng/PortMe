@@ -278,32 +278,16 @@
 }
 
 .page .image {
-  align-self: stretch;
-  background-color: #d8d8d880;
-  flex: 1;
-  flex-grow: 1;
+  align-self: center;
+  height: 340px;
+  width: 100%;
   position: relative;
-}
-
-.page .title-3 {
-  color: #000000;
-  font-family: "Roboto-Regular", Helvetica;
-  font-size: 12px;
-  font-weight: 400;
-  height: 16px;
-  left: 16px;
-  letter-spacing: 0;
-  line-height: 16px;
-  position: absolute;
-  text-align: center;
-  top: 161px;
-  white-space: nowrap;
-  width: 449px;
+  object-fit:contain;
 }
 
 .page .tag {
   align-items: center;
-  background-color: #0000000d;
+  background-color: white;
   border-radius: 6px 0px 6px 0px;
   display: inline-flex;
   flex-direction: column;
