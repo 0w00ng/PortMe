@@ -157,8 +157,8 @@ const App = () => {
       </div>
       <div className="section">
         <div className="container">
-          <div className="title-12">Email : gmrfy9906@naver.com</div>
-          <div className="title-12">blog : herokim.tistory.com</div>
+          <a>Email : gmrfy9906@naver.com</a>
+          <a href="http://herokim.tistory.com">blog : herokim.tistory.com</a>
         </div>
       </div>
       <div className="section">
