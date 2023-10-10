@@ -4,12 +4,14 @@ import Location from "./img/location.png";
 import Icon from "./img/icon.ico"
 import Chucar from "./img/chucar-logoN1.png"
 import Iphone from "./img/iphonex3365689640.png"
+import ReactImg from "./img/react.png"
+import XcodeImg from "./img/xcode.jpeg"
 import "./App.css";
 
 const App = () => {
   return (
     <div className="page">
-      <div className="top-bar">
+      {/*<div className="top-bar">
         <img className="rectangle" alt="icon" src={Icon}/>
         <div className="title">PortMe</div>
         <div className="navbar">
@@ -18,7 +20,7 @@ const App = () => {
           <div className="tab">Projects</div>
           <div className="tab">Contact</div>
         </div>
-      </div>
+      </div>*/}
       <div className="div">
         <img className="avatar" alt="Profile" src={Hero}/>
         <div className="container-2">
@@ -91,7 +93,7 @@ const App = () => {
           <div className="row">
             <div className="article">
               <div className="image-wrapper">
-                <div className="image" />
+                <img className="image" src={ReactImg}/>
               </div>
               <div className="frame">
                 <div className="title-6">Web Development</div>
@@ -103,7 +105,7 @@ const App = () => {
           <div className="row">
             <div className="article">
               <div className="image-wrapper">
-                <div className="image" />
+                <img className="image" src={XcodeImg}/>
               </div>
               <div className="frame">
                 <div className="title-6">App Development</div>
@@ -167,7 +169,7 @@ const App = () => {
       </div>
       <div className="container-wrapper">
         <div className="container-5">
-          <div className="title-12">Hero Kim</div>
+          <div className="title-12"></div>
         </div>
       </div>
     </div>
