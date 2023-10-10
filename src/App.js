@@ -38,7 +38,7 @@ const App = () => {
           <p className="description">Check out some of my work.</p>
           <div className="list">
             <div className="card-1">
-              <div className="card">
+              <a className="card" href="https://www.KHero.me">
                 <div className="image-container">
                   <img className="image" alt="Portme" src={Icon}/>
                     <div className="tag">
@@ -50,8 +50,8 @@ const App = () => {
                   <div className="subtitle">PortMe (React)</div>
                   <div className="description">개인 이력서</div>
                 </div>
-              </div>
-              <div className="card">
+              </a>
+              <a className="card" href="https://github.com/0w00ng/Chucar">
                 <div className="image-container">
                 <img className="image" alt="Chucar" src={Chucar}/>
                     <div className="tag">
@@ -63,7 +63,7 @@ const App = () => {
                   <div className="subtitle">츄카 (ReactNative)</div>
                   <div className="description">중고차 견적플랫폼</div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="card">
               <div className="image-container">
