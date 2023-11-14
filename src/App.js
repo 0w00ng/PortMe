@@ -6,7 +6,6 @@ import Chucar from "./img/chucar-logoN1.png"
 import Iphone from "./img/iphonex3365689640.png"
 import ReactImg from "./img/react.png"
 import XcodeImg from "./img/xcode.jpeg"
-import axios from "axios";
 import "./App.css";
 
 const App = () => {
@@ -177,7 +176,6 @@ const App = () => {
       <div className="container-wrapper">
         <div className="container-5">
           <div className="title-12">
-            <button onClick={CheckPhoneN}/>
           </div>
         </div>
       </div>
