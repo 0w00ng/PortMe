@@ -6,6 +6,7 @@ import Chucar from "./img/chucar-logoN1.png"
 import Iphone from "./img/iphonex3365689640.png"
 import ReactImg from "./img/react.png"
 import XcodeImg from "./img/xcode.jpeg"
+import axios from "axios";
 import "./App.css";
 
 const App = () => {
@@ -27,10 +28,16 @@ const App = () => {
           <div className="title-2">김영웅</div>
           <div className="selection">
             <div className="label-normal">
-              <div className="label-text">IOS Developer</div>
+              <div className="label-text">Developer</div>
             </div>
           </div>
-          <p className="text-wrapper-2">IOS 개발자 준비중인 25세 김영웅입니다.</p>
+          <p className="text-wrapper-2">개발자 준비중인 25세 김영웅입니다.</p>
+          <p className="text-wrapper-2">• 좋은 커뮤니케이션 능력 - 팀원들과의 협업을 중요시 여기며 명확하고 효과적으로 의사를 전달할 수 있습니다.</p>
+          <p className="text-wrapper-2">• 빠른 성장에 목말라 있고, 훌륭한 동료들과 임팩트 큰 결과물을 만들어보고 싶은 마음을 가지고 있습니다.</p>
+          <p className="text-wrapper-2">• 어떤 환경에서도 적응하고 본인을 성장시킬 수 있는 용기와 열정을 가졌습니다.</p>
+          <p className="text-wrapper-2">• 누구도 설득할 수 있는 커뮤니케이션 능력과 끈질긴 집념을 가졌습니다.</p>
+          <p className="text-wrapper-2">• iOS와 더불어 ReactNative 개발 경험도 있습니다.</p>
+          <p className="text-wrapper-2">• 자료구조, 알고리즘, 디자인패턴에 대한 높은 이해도를 가진 분</p>
         </div>
         <img className="img" alt="Vector" src="vector-200-2.svg" />
       </div>
@@ -169,7 +176,9 @@ const App = () => {
       </div>
       <div className="container-wrapper">
         <div className="container-5">
-          <div className="title-12"></div>
+          <div className="title-12">
+            <button onClick={CheckPhoneN}/>
+          </div>
         </div>
       </div>
     </div>
