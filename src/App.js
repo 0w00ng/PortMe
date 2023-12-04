@@ -5,29 +5,30 @@ import Icon from "./img/icon.ico"
 import Chucar from "./img/chucar-logoN1.png"
 import Iphone from "./img/iphonex3365689640.png"
 import ReactImg from "./img/react.png"
+import EtcImg from "./img/ETC.png"
 import XcodeImg from "./img/xcode.jpeg"
 import "./App.css";
 
 const App = () => {
   return (
     <div className="page">
-      {/*<div className="top-bar">
+      <div className="top-bar">
         <img className="rectangle" alt="icon" src={Icon}/>
         <div className="title">PortMe</div>
         <div className="navbar">
-          <div className="tab">Home</div>
+          {/* <div className="tab">Home</div>
           <div className="tab">About</div>
           <div className="tab">Projects</div>
-          <div className="tab">Contact</div>
+          <div className="tab">Contact</div> */}
         </div>
-      </div>*/}
+      </div>
       <div className="div">
         <img className="avatar" alt="Profile" src={Hero}/>
         <div className="container-2">
           <div className="title-2">김영웅</div>
           <div className="selection">
             <div className="label-normal">
-              <div className="label-text">Developer</div>
+              <div className="label-text">Intro</div>
             </div>
           </div>
           <p className="text-wrapper-2">개발자 준비중인 25세 김영웅입니다.</p>
@@ -55,8 +56,9 @@ const App = () => {
                 </div>
                 <div className="text-content">
                   <div className="title-4">Project 1</div>
-                  <div className="subtitle">PortMe (React)</div>
-                  <div className="description">개인 이력서</div>
+                  <div className="subtitle">PortMe</div>
+                  <div className="description">현재 표시되고 있는 사이트</div>
+                  <div className="description">1인개발 / 2개월 / React,Yarn,Figma / AWS Amplify / AWS Route 53</div>
                 </div>
               </a>
               <a className="card" href="https://github.com/0w00ng/Chucar">
@@ -68,8 +70,9 @@ const App = () => {
                 </div>
                 <div className="text-content">
                   <div className="title-4">Project 2</div>
-                  <div className="subtitle">츄카 (ReactNative)</div>
-                  <div className="description">중고차 견적플랫폼</div>
+                  <div className="subtitle">츄카</div>
+                  <div className="description">중고차 견적비교 플랫폼</div>
+                  <div className="description">2인개발 / 6개월 / ReactNative / NPM / AWS S3 / AWS EC2</div>
                 </div>
               </a>
             </div>
@@ -122,6 +125,20 @@ const App = () => {
               </div>
             </div>
           </div>
+          <div className="row">
+            <div className="article">
+              <div className="image-wrapper">
+                <img className="image" src={EtcImg}/>
+              </div>
+              <div className="frame">
+                <div className="title-6">ETC.</div>
+                <div className="subtitle-2">Development</div>
+                <div className="text-wrapper-2">C,C++ / CS / Data Structure / Algorithm</div>
+                <div className="subtitle-2">Communication</div>
+                <div className="text-wrapper-2">Slack, Github, Figma, Gather</div>
+              </div>
+            </div>
+          </div>
         </div>
         <img className="vector-3" alt="Vector" src="vector-200.svg" />
       </div>
@@ -141,16 +158,6 @@ const App = () => {
             </div>
             <div className="item">
               <div className="div-wrapper">
-                <div className="icon">🇰🇷</div>
-              </div>
-              <div className="frame-2">
-                <div className="title-8">청해부대 30진</div>
-                <div className="subtitle-3">대한민국 해군</div>
-              </div>
-              <div className="subtitle-4">2018 - 2020</div>
-            </div>
-            <div className="item">
-              <div className="div-wrapper">
                 <div className="icon">🖥️</div>
               </div>
               <div className="frame-2">
@@ -158,6 +165,16 @@ const App = () => {
                 <div className="subtitle-3">대리(비개발직)</div>
               </div>
               <div className="subtitle-4">2018 - Present</div>
+            </div>
+            <div className="item">
+              <div className="div-wrapper">
+                <div className="icon">📱</div>
+              </div>
+              <div className="frame-2">
+                <div className="title-8">앨런 Swift 마스터 스쿨 28기</div>
+                <div className="subtitle-3">IOS 온라인 부트캠프</div>
+              </div>
+              <div className="subtitle-4">2023 - Present</div>
             </div>
           </div>
         </div>
